@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário Teste</title>
+</head>
+<body>
+
+<h1>Formulário de Adesão Sócio Torcedor</h1>
+
+<form action="pagina-processador-sociotorcedor-form" method="POST">
+<fieldset>
+<legend>Dados Pessoais</legend>
+<label for="nome_completo">Nome Completo:</label>
+	<input type="text" id="nome_completo" name="nome_completo" />
+<label for="cpf">CPF:</label>
+	<input type="text" id="cpf" name="cpf" minlength="11" maxlength="11" required /> 
+<label for="nascimento_dia"> Dia do Nascimento: </label>
+<select id="nascimento_dia" name="nascimento_dia" required>
+	<option value="dia"> Dia </option>
+	<option value="1"> 1 </option>
+	<option value="2"> 2 </option>
+	<option value="3"> 3 </option>
+	<option value="4"> 4 </option>
+	<option value="5"> 5 </option>
+	<option value="6"> 6 </option>
+	<option value="7"> 7 </option>
+	<option value="8"> 8 </option>
+	<option value="9"> 9 </option>
+	<option value="10"> 10 </option>
+	<option value="11"> 11 </option>
+	<option value="12"> 12 </option>
+</select>
+<select id="nascimento_mes" name="nascimento_mes" required>
+	<option value="mês"> Mês </option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+</select>
+<select id="nascimento_ano" name="nascimento_ano" required>
+	<option value="ano"> Ano </option>
+	<option value="2001"> 2001</option>
+	<option value="2000"> 2000 </option>
+	<option value="1999"> 1999 </option>
+	<option value="1998"> 1998 </option>
+	<option value="1997"> 1997 </option>
+	<option value="1996"> 1996 </option>
+	<option value="1995"> 1995 </option>
+	<option value="1994"> 1994 </option>
+	<option value="1993"> 1993 </option>
+	<option value="1992"> 1992 </option>
+	<option value="1991"> 1991 </option>
+	<option value="1990"> 1990 </option>
+</select>
+<label for="email"> E-mail:</label>
+	<input type="email" id="email" name="email"/>
+<label for="telefone"> Telefone: </label>
+	<input type="text" id="telefone" name="telefone"/>
+</fieldset>
+
+<fieldset>
+<legend> Endereço </legend>
+<label for="tipo"> Tipo: </label>
+	<select id="tipo" name="tipo">
+	<option value="selecione"> Selecione </option>
+	<option value="rua"> Rua </option>
+	<option value="avenida"> Avenida </option>
+	<option value="alameda"> Alameda </option>
+	<option value="outros"> Outros </option>
+</select>
+<label for="endereco"> Logradouro: </label>
+	<input type="text" id="endereco" name="endereco"/>
+<label for="numero"> Número: </label>
+	<input type="text" id="numero" name="numero" />
+<label for="complemento"> Complemento: </label>
+	<input type="text" id="complemento" name="complemento"/>
+<label  for="bairro"> Bairro: </label>
+	<input type="text" id="bairro" name="bairro"/>
+<label for="uf"> UF: </label>
+	<input type="text" id="uf" name="uf" maxlength="2" required>
+</fieldset>
+
+<h2> Ativação Sócio Torcedor </h2>
+ 
+<p> Para seguimos com a contratação do Sócio Torcedor clique abaixo em Enviar, ápos o envio o prazo para retorno da contratação é em até 72 horas, para contabilizar o pagamento e ativação do Sócio.
+Em caso de dúvidas, entre em contato com a nossa Central de Atendimento no telefone: 31 3333-4444. </p>
+
+<fieldset>
+<button type="submit"> Enviar </button>
+<button type="reset"> Limpar Dados </button>
+</fieldset>
+</form>
+</body>
+</html>
+
+ 
+
+
+
+
+
